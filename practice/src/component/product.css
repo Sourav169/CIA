@@ -1,0 +1,27 @@
+.all-product{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40%;
+}
+.all-product li{
+    flex:0 1 24rem;
+    margin: 1rem;
+    height: 50rem;
+   
+    border-bottom: .2rem blue;
+}
+.image-product{
+    max-width: 24rem;
+    max-height: 34rem;
+}
+.name{
+    font-size: medium;
+    color: chartreuse;
+}
